@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Rubik", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+ul {
+  list-style: none;
+}

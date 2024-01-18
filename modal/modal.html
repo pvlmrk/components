@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="../button/button.css">
+    <link rel="stylesheet" href="../input/input.css">
+    <link rel="stylesheet" href="../global.css">
+    <title>Modal</title>
+</head>
+<body>
+    <main>
+        <div class="btn-group">
+            <button class="primary" id="openModalBtn">Join newsletter</button>
+        </div>
+        <div class="overlay" id="overlay"></div>
+        <div class="modal" id="modal">
+            <p>Stay updated by joining</p>
+            <p>We’re happy to see you joining this community of 10k+ smart people who read every month.</p>
+            <div class="form-input">
+                <input type="email" placeholder="Email address" id="email" />
+                <label for="email">Email</label>
+            </div>
+            <button class="primary" id="joinBtn">Join</button>
+        </div>
+    </main>
+    <script src="modal.js"></script>
+</body>
+</html>
