@@ -1,0 +1,41 @@
+.alert {
+    background-color: white;
+    padding: 1rem;
+    width: 500px;
+    border-radius: 8px;
+    display: flex;
+    gap: 2rem;
+}
+
+.alert i {
+    margin-top: 12px;
+}
+
+.alert p {
+    margin: 0;
+}
+
+.alert p:first-child {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.alert-error {
+    border: 2px solid #991a1a;
+    color: #991a1a;
+}
+
+.alert-warning {
+    border: 2px solid #f1740e;
+    color: #f1740e;
+}
+
+.alert-info {
+    border: 2px solid #0d68d0;
+    color: #0d68d0;
+}
+
+.alert-success {
+    border: 2px solid #41a145;
+    color: #41a145;
+}
